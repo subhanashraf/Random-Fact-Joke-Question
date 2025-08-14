@@ -1,0 +1,40 @@
+{
+  "name": "Random Generator - Facts, Questions & Jokes",
+  "short_name": "Random Generator",
+  "description": "Generate amazing random facts, thought-provoking questions, and hilarious jokes instantly!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "categories": ["education", "entertainment", "kids"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/cd8df6f2-2fd3-4c27-bc5b-8fb3d8bfd0bf-removebg-preview.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/cd8df6f2-2fd3-4c27-bc5b-8fb3d8bfd0bf-removebg-preview.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "640x1136",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}

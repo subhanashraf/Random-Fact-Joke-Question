@@ -1,0 +1,118 @@
+{
+  "websiteName": "Random Generator",
+  "websiteTitle": "Random Generator - Facts, Questions & Jokes",
+  "websiteDescription": "Discover amazing facts, thought-provoking questions, and hilarious jokes! Educational and entertaining content for all ages.",
+  "heroTitle": "Discover Amazing Content",
+  "heroDescription": "Generate random facts, questions, and jokes instantly!",
+  "navigation": {
+    "facts": "📚 Facts",
+    "questions": "❓ Questions",
+    "jokes": "😂 Jokes"
+  },
+  "generators": {
+    "fact": {
+      "title": "Random Fact Generator",
+      "button": "Generate Fact",
+      "generating": "Generating amazing fact..."
+    },
+    "question": {
+      "title": "Random Question Generator",
+      "button": "Generate Question",
+      "generating": "Generating thought-provoking question..."
+    },
+    "joke": {
+      "title": "Random Joke Generator",
+      "button": "Generate Joke",
+      "generating": "Generating hilarious joke..."
+    }
+  },
+  "categories": {
+    "random": "🎲 Random",
+    "fun": "🎉 Fun",
+    "science": "🔬 Science",
+    "history": "📜 History",
+    "technology": "💻 Technology",
+    "space": "🚀 Space",
+    "health": "💊 Health",
+    "nature": "🌿 Nature",
+    "sports": "⚽ Sports",
+    "culture": "🎭 Culture",
+    "entertainment": "🎬 Entertainment",
+    "education": "🎓 Education",
+    "lifestyle": "🏠 Lifestyle",
+    "food": "🍕 Food",
+    "music": "🎵 Music",
+    "art": "🎨 Art",
+    "travel": "✈️ Travel",
+    "philosophy": "🤔 Philosophy",
+    "psychology": "🧠 Psychology",
+    "literature": "📚 Literature",
+    "movies": "🎥 Movies",
+    "games": "🎮 Games",
+    "relationships": "💕 Relationships",
+    "career": "💼 Career",
+    "creativity": "✨ Creativity",
+    "ethics": "⚖️ Ethics",
+    "future": "🔮 Future",
+    "childhood": "👶 Childhood",
+    "dreams": "💭 Dreams",
+    "hobbies": "🎯 Hobbies",
+    "adventure": "🗺️ Adventure",
+    "mystery": "🕵️ Mystery",
+    "funny": "😄 Funny",
+    "dadjokes": "👨 Dad Jokes",
+    "kids": "🧒 Kids",
+    "wordplay": "📝 Wordplay",
+    "animals": "🐾 Animals",
+    "darkhumor": "🖤 Dark Humor",
+    "puns": "😏 Puns",
+    "personal": "👤 Personal",
+    "creative": "🎪 Creative"
+  },
+  "ui": {
+    "recentItems": "Recent Items",
+    "loadMore": "Load More",
+    "funFactOfDay": "Fun Fact of the Day",
+    "mostPopularJoke": "Most Popular Joke",
+    "statistics": "Statistics",
+    "factsGenerated": "Facts Generated",
+    "activeUsers": "Active Users",
+    "userRating": "User Rating",
+    "whyChooseUs": "Why Choose Us?",
+    "features": {
+      "educational": {
+        "title": "Educational Content",
+        "description": "Learn something new every day with our curated facts and questions."
+      },
+      "familyFriendly": {
+        "title": "Family Friendly",
+        "description": "Safe and appropriate content for all ages and family members."
+      },
+      "qualityContent": {
+        "title": "Quality Content",
+        "description": "Hand-picked and AI-generated content that's both fun and informative."
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Admin Dashboard",
+    "login": "Login",
+    "logout": "Logout",
+    "username": "Username",
+    "password": "Password",
+    "addNew": "Add New",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "type": "Type",
+    "category": "Category",
+    "content": "Content",
+    "language": "Language",
+    "actions": "Actions",
+    "deleteConfirm": "Are you sure you want to delete this item?",
+    "editTitle": "Edit Item",
+    "addTitle": "Add New Item"
+  }
+}

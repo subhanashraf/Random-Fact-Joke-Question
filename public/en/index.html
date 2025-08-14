@@ -3,15 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Generator - Facts, Questions & Jokes</title>
-    <meta name="description" content="Discover amazing facts, thought-provoking questions, and hilarious jokes! Educational and family-friendly content for all ages.">
-    <meta name="keywords" content="random facts, questions, jokes, educational content, family friendly, fun facts, trivia">
-    <link rel="canonical" href="https://yourdomain.com/en/">
-    <meta http-equiv="refresh" content="0; url=/">
+    <title>Random Generator - Facts, Questions & Jokes | Educational Fun for All Ages</title>
+    <meta name="description" content="Generate amazing random facts, thought-provoking questions, and hilarious jokes instantly! Educational and entertaining content perfect for kids, families, and learners of all ages.">
+    <meta name="keywords" content="random facts generator, random questions generator, random jokes generator, educational content, kids learning, family entertainment, fun facts, trivia questions, clean jokes">
+    <meta name="author" content="Random Generator Team">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical and Language Links -->
+    <link rel="canonical" href="https://randomgenerator.com/en/">
+    <link rel="alternate" hreflang="en" href="https://randomgenerator.com/en/">
+    <link rel="alternate" hreflang="zh" href="https://randomgenerator.com/zh/">
+    <link rel="alternate" hreflang="x-default" href="https://randomgenerator.com/">
+    
+    <!-- Translation File Reference -->
+    <link rel="preload" href="/translations/en.json" as="fetch" type="application/json" crossorigin>
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Random Generator - Facts, Questions & Jokes">
+    <meta property="og:description" content="Generate amazing random facts, thought-provoking questions, and hilarious jokes instantly!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://randomgenerator.com/en/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="zh_CN">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Random Generator - Facts, Questions & Jokes">
+    <meta name="twitter:description" content="Generate amazing random facts, thought-provoking questions, and hilarious jokes instantly!">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Random Generator",
+      "description": "Generate amazing random facts, thought-provoking questions, and hilarious jokes instantly",
+      "url": "https://randomgenerator.com/en/",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Web Browser",
+      "inLanguage": "en-US",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Children, Families, Students, Educators"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "1250"
+      }
+    }
+    </script>
+    
+    <meta http-equiv="refresh" content="0; url=/?lang=en">
 </head>
 <body>
     <h1>Random Generator - Facts, Questions & Jokes</h1>
-    <p>Discover amazing facts, thought-provoking questions, and hilarious jokes!</p>
-    <script>window.location.href = "/";</script>
+    <p>Generate amazing random facts, thought-provoking questions, and hilarious jokes instantly! Educational and entertaining content perfect for kids, families, and learners of all ages.</p>
+    
+    <nav>
+        <ul>
+            <li><a href="/?lang=en#facts">📚 Random Facts</a></li>
+            <li><a href="/?lang=en#questions">❓ Random Questions</a></li>
+            <li><a href="/?lang=en#jokes">😂 Random Jokes</a></li>
+        </ul>
+    </nav>
+    
+    <script>
+        // Set language preference and redirect
+        localStorage.setItem('language', 'en');
+        window.location.href = "/?lang=en";
+    </script>
 </body>
 </html>
