@@ -1,0 +1,53 @@
+{
+  "facts": [
+    {
+      "type": "science",
+      "language": "en",
+      "content": "Octopuses have three hearts and blue blood! 🐙 Two hearts pump blood to the gills, while the third pumps blood to the rest of the body."
+    },
+    {
+      "type": "space",
+      "language": "en",
+      "content": "A day on Venus is longer than its year! ⭐ Venus takes 243 Earth days to rotate once, but only 225 Earth days to orbit the Sun."
+    },
+    {
+      "type": "science",
+      "language": "zh",
+      "content": "章鱼有三颗心脏和蓝色的血液！🐙 两颗心脏将血液泵送到鳃部，第三颗心脏将血液泵送到身体其他部位。"
+    }
+  ],
+  "questions": [
+    {
+      "type": "philosophy",
+      "language": "en",
+      "content": "If you could have dinner with any person from history, who would it be and what would you ask them? 🤔"
+    },
+    {
+      "type": "creativity",
+      "language": "en",
+      "content": "What would the world look like if colors had sounds? 🎨🎵"
+    },
+    {
+      "type": "philosophy",
+      "language": "zh",
+      "content": "如果你可以与历史上的任何人共进晚餐，你会选择谁，你会问他们什么？🤔"
+    }
+  ],
+  "jokes": [
+    {
+      "type": "science",
+      "language": "en",
+      "content": "Why don't scientists trust atoms? Because they make up everything! ⚛️😄"
+    },
+    {
+      "type": "dadjokes",
+      "language": "en",
+      "content": "I told my wife she was drawing her eyebrows too high. She looked surprised! 😮"
+    },
+    {
+      "type": "science",
+      "language": "zh",
+      "content": "为什么科学家不相信原子？因为它们编造一切！⚛️😄"
+    }
+  ]
+}
