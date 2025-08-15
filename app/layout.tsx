@@ -8,7 +8,7 @@ import { Toaster } from "@/components/ui/toaster"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://randomgenerator.com"),
+  metadataBase: new URL("https://random-fact-joke-question.vercel.app/"),
   title: {
     default: "Random Generator - Facts, Questions & Jokes | Educational Fun for All Ages",
     template: "%s | Random Generator",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "儿童学习",
     "家庭娱乐",
   ],
-  authors: [{ name: "Random Generator Team", url: "https://randomgenerator.com" }],
+  authors: [{ name: "Random Generator Team", url: "https://random-fact-joke-question.vercel.app/" }],
   creator: "Random Generator Team",
   publisher: "Random Generator",
   robots: {
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     alternateLocale: ["zh_CN"],
-    url: "https://randomgenerator.com",
+    url: "https://random-fact-joke-question.vercel.app/",
     siteName: "Random Generator",
     title: "Random Generator - Facts, Questions & Jokes | Educational Fun",
     description:
@@ -119,7 +119,7 @@ export default function RootLayout({
               name: "Random Generator",
               alternateName: "随机生成器",
               description: "Generate amazing random facts, thought-provoking questions, and hilarious jokes instantly",
-              url: "https://randomgenerator.com",
+              url: "https://random-fact-joke-question.vercel.app/",
               applicationCategory: "EducationalApplication",
               operatingSystem: "Web Browser",
               browserRequirements: "Requires JavaScript. Requires HTML5.",

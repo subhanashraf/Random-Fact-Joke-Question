@@ -66,17 +66,20 @@ function HomeContent() {
               <Sparkles className="h-4 w-4" />
               Welcome to Random Generator!
             </div>
- <h1 className="text-4xl md:text-6xl font-bold gradient-text-primary flex items-center justify-center gap-4">
-              <span className="text-4xl md:text-5xl">🎲</span>
-              {t("heroTitle") || "Discover Amazing Content"}
-              <span className="text-4xl md:text-5xl">🎲</span>
-            </h1>            <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            <div className="flex items-center justify-center gap-4">
+              <span className="text-4xl md:text-5xl " aria-hidden="true">🎲</span>
+              <h1 className="text-4xl md:text-6xl font-bold gradient-text-primary">
+                {t("heroTitle") || "Discover Amazing Content"}
+              </h1>
+            </div>
+
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               {t("heroDescription") || "Generate random facts, questions, and jokes instantly!"}
             </p>
           </div>
-            <Suspense fallback={<div className="h-24 bg-muted/20 rounded-lg animate-pulse"></div>}>
-          <AdSlot position="top" />
-        </Suspense>
+          <Suspense fallback={<div className="h-24 bg-muted/20 rounded-lg animate-pulse"></div>}>
+            <AdSlot position="top" />
+          </Suspense>
 
           {/* Simplified Navigation - More prominent and user-friendly */}
           <div className="flex justify-center">
@@ -84,9 +87,8 @@ function HomeContent() {
               <Button
                 variant={activeSection === "fact" ? "default" : "ghost"}
                 onClick={() => setActiveSection("fact")}
-                className={`flex-1 flex items-center gap-2 rounded-xl transition-all duration-300 ${
-                  activeSection === "fact" ? "gradient-primary text-white shadow-md" : "hover:bg-muted/50"
-                }`}
+                className={`flex-1 flex items-center gap-2 rounded-xl transition-all duration-300 ${activeSection === "fact" ? "gradient-primary text-white shadow-md" : "hover:bg-muted/50"
+                  }`}
               >
                 <span className="text-lg">📚</span>
                 {t("navigation.facts") || "Facts"}
@@ -94,9 +96,8 @@ function HomeContent() {
               <Button
                 variant={activeSection === "question" ? "default" : "ghost"}
                 onClick={() => setActiveSection("question")}
-                className={`flex-1 flex items-center gap-2 rounded-xl transition-all duration-300 ${
-                  activeSection === "question" ? "gradient-primary text-white shadow-md" : "hover:bg-muted/50"
-                }`}
+                className={`flex-1 flex items-center gap-2 rounded-xl transition-all duration-300 ${activeSection === "question" ? "gradient-primary text-white shadow-md" : "hover:bg-muted/50"
+                  }`}
               >
                 <span className="text-lg">❓</span>
                 {t("navigation.questions") || "Questions"}
@@ -104,9 +105,8 @@ function HomeContent() {
               <Button
                 variant={activeSection === "joke" ? "default" : "ghost"}
                 onClick={() => setActiveSection("joke")}
-                className={`flex-1 flex items-center gap-2 rounded-xl transition-all duration-300 ${
-                  activeSection === "joke" ? "gradient-primary text-white shadow-md" : "hover:bg-muted/50"
-                }`}
+                className={`flex-1 flex items-center gap-2 rounded-xl transition-all duration-300 ${activeSection === "joke" ? "gradient-primary text-white shadow-md" : "hover:bg-muted/50"
+                  }`}
               >
                 <span className="text-lg">😂</span>
                 {t("navigation.jokes") || "Jokes"}
@@ -116,7 +116,7 @@ function HomeContent() {
         </section>
 
         {/* Ad Slot */}
-      
+
 
         {/* Main Generator Section */}
         <div className="space-y-8">

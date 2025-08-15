@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/dashboardqwertyuiop/", "/api/"],
       },
     ],
-    sitemap: "https://randomgenerator.com/sitemap.xml",
+    sitemap: "https://random-fact-joke-question.vercel.app/sitemap.xml",
   }
 }
