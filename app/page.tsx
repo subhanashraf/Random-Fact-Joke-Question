@@ -2,6 +2,7 @@
 
 import { useState, Suspense } from "react"
 import { Header } from "@/components/header"
+import Footer from "@/components/Footer"
 import { FactGenerator } from "@/components/fact-generator"
 import { QuestionGenerator } from "@/components/question-generator"
 import { JokeGenerator } from "@/components/joke-generator"
@@ -54,9 +55,9 @@ function HomeContent() {
 
   return (
     <div className="min-h-screen">
-      {/* <Suspense fallback={<div className="h-20 bg-background/80 backdrop-blur-md"></div>}>
+      <Suspense fallback={<div className="h-20 bg-background/80 backdrop-blur-md"></div>}>
         <Header />
-      </Suspense> */}
+      </Suspense>
 
       <main className="container mx-auto px-4 py-8 space-y-12">
         {/* Hero Section - Simplified and more welcoming */}
@@ -237,6 +238,10 @@ function HomeContent() {
           <AdSlot position="bottom" />
         </Suspense>
       </main>
+
+       <Suspense fallback={<div className="h-20 bg-background/80 backdrop-blur-md"></div>}>
+        <Footer />
+      </Suspense>
     </div>
   )
 }

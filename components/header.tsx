@@ -5,7 +5,7 @@ import { useTheme } from "next-themes"
 import { useLanguage } from "@/components/language-provider"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { useEffect, useState } from "react"
-
+import Link from "next/link"
 export function Header() {
   const { theme, setTheme } = useTheme()
   const { language, setLanguage, t } = useLanguage()
@@ -18,17 +18,29 @@ export function Header() {
   if (!mounted) {
     return null
   }
+  const LANGUAGES = {
+  en: { name: "English", flag: "🇺🇸" },
+  zh: { name: "中文", flag: "🇨🇳" },
+  es: { name: "Español", flag: "🇪🇸" },
+  ru: { name: "Русский", flag: "🇷🇺" },
+  hi: { name: "हिंदी", flag: "🇮🇳" },
+  fr: { name: "Français", flag: "🇫🇷" },
+  pt: { name: "Português", flag: "🇵🇹" },
+  ar: { name: "العربية", flag: "🇸🇦" },
+}
 
   return (
     <header className="sticky top-0 z-50 border-b bg-background/80 backdrop-blur-md shadow-sm">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
+          <Link href="/">
          <div className="flex items-center">
   <span className="text-yellow-400 text-2xl">🎲</span>
   <h1 className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent text-2xl font-bold ml-2">
     {t("websiteName")}
   </h1>
 </div>
+          </Link>
 
         </div>
 
@@ -41,12 +53,20 @@ export function Header() {
                 size="icon"
                 className="shadow-md hover:shadow-lg transition-shadow bg-transparent"
               >
-                <Globe className="h-4 w-4" />
-              </Button>
+                
+ <span className="text-lg">{language}</span>
+    </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="shadow-xl">
-              <DropdownMenuItem onClick={() => setLanguage("en")}>🇺🇸 English</DropdownMenuItem>
-              <DropdownMenuItem onClick={() => setLanguage("zh")}>🇨🇳 中文</DropdownMenuItem>
+<DropdownMenuItem onClick={() => setLanguage("en")}>🇺🇸 English</DropdownMenuItem>
+<DropdownMenuItem onClick={() => setLanguage("zh")}>🇨🇳 中文</DropdownMenuItem>
+<DropdownMenuItem onClick={() => setLanguage("es")}>🇪🇸 Español</DropdownMenuItem>
+<DropdownMenuItem onClick={() => setLanguage("ru")}>🇷🇺 Русский</DropdownMenuItem>
+<DropdownMenuItem onClick={() => setLanguage("hi")}>🇮🇳 हिंदी</DropdownMenuItem>
+<DropdownMenuItem onClick={() => setLanguage("fr")}>🇫🇷 Français</DropdownMenuItem>
+
+<DropdownMenuItem onClick={() => setLanguage("pt")}>🇵🇹 Português</DropdownMenuItem>
+<DropdownMenuItem onClick={() => setLanguage("ar")}>🇸🇦 العربية</DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
 

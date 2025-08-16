@@ -3,8 +3,7 @@
 import type React from "react"
 import { createContext, useContext, useState, useEffect, } from "react"
 import { useTranslations } from "@/hooks/use-translations"
-// import { Header } from "@/components/header"
-// import Footer from "./Footer"
+
 interface LanguageContextType {
   language: string
   setLanguage: (lang: string) => void
@@ -20,7 +19,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const savedLanguage = localStorage.getItem("language")
-    if (savedLanguage && (savedLanguage === "en" || savedLanguage === "zh")) {
+    if (savedLanguage && (savedLanguage === "en" || savedLanguage === "zh" || savedLanguage === "es" )) {
       setLanguage(savedLanguage)
     }
   }, [])
@@ -34,13 +33,9 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage: handleSetLanguage, t, loading }}>
-      {/* <Suspense fallback={<div className="h-20 bg-background/80 backdrop-blur-md"></div>}>
-        <Header />
-      </Suspense> */}
+    
       {children}
-         {/* <Suspense fallback={<div className="h-20 bg-background/80 backdrop-blur-md"></div>}>
-        <Footer/>
-      </Suspense> */}
+   
     </LanguageContext.Provider>
   )
 }

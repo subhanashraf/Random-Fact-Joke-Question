@@ -87,7 +87,7 @@ export function QuestionGenerator() {
       <CardHeader>
         <CardTitle className="flex items-center gap-2 text-2xl">
           <HelpCircle className="h-6 w-6 text-blue-500" />
-          {t("questionGenerator")}
+          {t("generators.question.title")}
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-6">
@@ -109,10 +109,10 @@ export function QuestionGenerator() {
             {loading ? (
               <>
                 <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                {t("generating")}
+                {t("generators.question.button")}
               </>
             ) : (
-              t("generateQuestion")
+              t("generators.question.generating")
             )}
           </Button>
         </div>

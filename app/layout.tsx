@@ -31,6 +31,24 @@ export const metadata: Metadata = {
     "教育内容",
     "儿童学习",
     "家庭娱乐",
+    "hechos aleatorios",
+    "preguntas aleatorias",
+    "chistes aleatorios",
+    "faits aléatoires",
+    "questions aléatoires",
+    "blagues aléatoires",
+    "случайные факты",
+    "случайные вопросы",
+    "случайные шутки",
+    "यादृच्छिक तथ्य",
+    "यादृच्छिक प्रश्न",
+    "यादृच्छिक जोक्स",
+    "حقيقة عشوائية",
+    "أسئلة عشوائية",
+    "نكات عشوائية",
+    "conteúdos aleatórios",
+    "perguntas aleatórias",
+    "piadas aleatórias",
   ],
   authors: [{ name: "Random Generator Team", url: "https://random-fact-joke-question.vercel.app/" }],
   creator: "Random Generator Team",
@@ -51,13 +69,19 @@ export const metadata: Metadata = {
     languages: {
       "en-US": "/en",
       "zh-CN": "/zh",
+      "es-ES": "/es",
+      "ru-RU": "/ru",
+      "hi-IN": "/hi",
+      "ar": "/ar",
+      "fr-FR": "/fr",
+      "pt-BR": "/pt",
       "x-default": "/",
     },
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    alternateLocale: ["zh_CN"],
+    alternateLocale: ["zh_CN", "es_ES", "ru_RU", "hi_IN", "ar", "fr_FR", "pt_BR"],
     url: "https://random-fact-joke-question.vercel.app/",
     siteName: "Random Generator",
     title: "Random Generator - Facts, Questions & Jokes | Educational Fun",
@@ -77,7 +101,8 @@ export const metadata: Metadata = {
     site: "@randomgenerator",
     creator: "@randomgenerator",
     title: "Random Generator - Facts, Questions & Jokes",
-    description: "Generate amazing random facts, thought-provoking questions, and hilarious jokes instantly!",
+    description:
+      "Generate amazing random facts, thought-provoking questions, and hilarious jokes instantly! Perfect for kids, families, and learners.",
     images: ["/twitter-image.png"],
   },
   verification: {
@@ -85,7 +110,8 @@ export const metadata: Metadata = {
     yandex: "your-yandex-verification-code",
   },
   category: "education",
-}
+};
+
 
 export default function RootLayout({
   children,
@@ -94,74 +120,107 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-     
-     <meta name="google-adsense-account" content="ca-pub-4747537655684073"></meta>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-        <meta name="theme-color" content="#3b82f6" />
-        <meta name="color-scheme" content="light dark" />
-       <link rel="icon" href="cd8df6f2-2fd3-4c27-bc5b-8fb3d8bfd0bf-removebg-preview.png" sizes="32x32" />
-        <link rel="icon" href="cd8df6f2-2fd3-4c27-bc5b-8fb3d8bfd0bf-removebg-preview.png" sizes="16x16" />
-        <link rel="apple-touch-icon" href="cd8df6f2-2fd3-4c27-bc5b-8fb3d8bfd0bf-removebg-preview.png" />
-        <link rel="manifest" href="/manifest.json" />
+    <head>
+  <meta name="google-adsense-account" content="ca-pub-4747537655684073" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+  <meta name="theme-color" content="#3b82f6" />
+  <meta name="color-scheme" content="light dark" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+  <link rel="icon" href="cd8df6f2-2fd3-4c27-bc5b-8fb3d8bfd0bf-removebg-preview.png" sizes="32x32" />
+  <link rel="icon" href="cd8df6f2-2fd3-4c27-bc5b-8fb3d8bfd0bf-removebg-preview.png" sizes="16x16" />
+  <link rel="apple-touch-icon" href="cd8df6f2-2fd3-4c27-bc5b-8fb3d8bfd0bf-removebg-preview.png" />
+  <link rel="manifest" href="/manifest.json" />
 
-        <link rel="alternate" hrefLang="en" href="/en/" />
-        <link rel="alternate" hrefLang="zh" href="/zh/" />
-        <link rel="alternate" hrefLang="x-default" href="/" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebApplication",
-              name: "Random Generator",
-              alternateName: "随机生成器",
-              description: "Generate amazing random facts, thought-provoking questions, and hilarious jokes instantly",
-              url: "https://random-fact-joke-question.vercel.app/",
-              applicationCategory: "EducationalApplication",
-              operatingSystem: "Web Browser",
-              browserRequirements: "Requires JavaScript. Requires HTML5.",
-              inLanguage: ["en-US", "zh-CN"],
-              audience: {
-                "@type": "Audience",
-                audienceType: "Children, Families, Students, Educators",
-              },
-              offers: {
-                "@type": "Offer",
-                price: "0",
-                priceCurrency: "USD",
-                availability: "https://schema.org/InStock",
-              },
-              creator: {
-                "@type": "Organization",
-                name: "Random Generator Team",
-              },
-              datePublished: "2024-01-01",
-              dateModified: new Date().toISOString().split("T")[0],
-              keywords: "random facts, questions, jokes, education, kids, family",
-              aggregateRating: {
-                "@type": "AggregateRating",
-                ratingValue: "4.8",
-                reviewCount: "1250",
-                bestRating: "5",
-                worstRating: "1",
-              },
-            }),
-          }}
-        />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 
-        <style>{`
-html {
-  font-family: ${GeistSans.style.fontFamily};
-  --font-sans: ${GeistSans.variable};
-  --font-mono: ${GeistMono.variable};
-}
-        `}</style>
-      </head>
+  
+  <link rel="alternate" hrefLang="en" href="/en/" />
+  <link rel="alternate" hrefLang="zh" href="/zh/" />
+  <link rel="alternate" hrefLang="es" href="/es/" />
+  <link rel="alternate" hrefLang="ru" href="/ru/" />
+  <link rel="alternate" hrefLang="hi" href="/hi/" />
+  <link rel="alternate" hrefLang="ar" href="/ar/" />
+  <link rel="alternate" hrefLang="fr" href="/fr/" />
+  <link rel="alternate" hrefLang="pt" href="/pt/" />
+  <link rel="alternate" hrefLang="x-default" href="/" />
+
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        name: "Random Generator",
+        alternateName: "随机生成器",
+        description: "Generate amazing random facts, thought-provoking questions, and hilarious jokes instantly",
+        url: "https://random-fact-joke-question.vercel.app/",
+        applicationCategory: "EducationalApplication",
+        operatingSystem: "Web Browser",
+        browserRequirements: "Requires JavaScript. Requires HTML5.",
+        inLanguage: ["en-US", "zh-CN", "es-ES", "ru-RU", "hi-IN", "ar", "fr-FR", "pt-BR"],
+        audience: {
+          "@type": "Audience",
+          audienceType: "Children, Families, Students, Educators",
+        },
+        offers: {
+          "@type": "Offer",
+          price: "0",
+          priceCurrency: "USD",
+          availability: "https://schema.org/InStock",
+        },
+        creator: {
+          "@type": "Organization",
+          name: "Random Generator Team",
+        },
+        datePublished: "2024-01-01",
+        dateModified: new Date().toISOString().split("T")[0],
+        keywords: [
+          "random facts",
+          "questions",
+          "jokes",
+          "education",
+          "kids",
+          "family",
+          "hechos aleatorios",
+          "preguntas aleatorias",
+          "chistes aleatorios",
+          "случайные факты",
+          "случайные вопросы",
+          "случайные шутки",
+          "यादृच्छिक तथ्य",
+          "यादृच्छिक प्रश्न",
+          "यादृच्छिक जोक्स",
+          "حقيقة عشوائية",
+          "أسئلة عشوائية",
+          "نكات عشوائية",
+          "faits aléatoires",
+          "questions aléatoires",
+          "blagues aléatoires",
+          "conteúdos aleatórios",
+          "perguntas aleatórias",
+          "piadas aleatórias"
+        ],
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: "4.8",
+          reviewCount: "1250",
+          bestRating: "5",
+          worstRating: "1",
+        },
+      }),
+    }}
+  />
+
+  <style>{`
+    html {
+      font-family: ${GeistSans.style.fontFamily};
+      --font-sans: ${GeistSans.variable};
+      --font-mono: ${GeistMono.variable};
+    }
+  `}</style>
+</head>
+
       <body className="min-h-screen"  cz-shortcut-listen="true">
         <ThemeProvider
           attribute="class"

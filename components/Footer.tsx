@@ -1,48 +1,47 @@
-
 // components/Footer.tsx
+"use client"
+
 import Link from "next/link"
 import { useLanguage } from "@/components/language-provider"
 
 export default function Footer() {
-  const { language, setLanguage, t } = useLanguage()
+  const { t } = useLanguage()
+
   return (
     <footer className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-6 mt-12">
       <div className="max-w-5xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
-
+        
         {/* Logo / Website Name */}
-        {/* <h2 className="text-lg font-semibold mb-4 md:mb-0">
-          Random Generator
-        </h2> */}
-
-        <div className="flex items-center">
+        <div className="flex items-center mb-4 md:mb-0">
           <span className="text-yellow-400 text-2xl">🎲</span>
-          <h1 className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent text-2xl font-bold ml-2">
+          <h1 className="text-2xl font-bold ml-2">
             {t("websiteName")}
           </h1>
         </div>
+
         {/* Navigation Links */}
         <nav className="flex flex-wrap gap-4 text-sm">
           <Link href="/" className="hover:underline">
-            Home
+            {t("footer.home")}
           </Link>
           <Link href="/about" className="hover:underline">
-            About
+            {t("footer.about")}
           </Link>
           <Link href="/contact" className="hover:underline">
-            Contact
+            {t("footer.contact")}
           </Link>
           <Link href="/privacy" className="hover:underline">
-            Privacy Policy
+            {t("footer.privacy")}
           </Link>
           <Link href="/terms" className="hover:underline">
-            Terms & Conditions
+            {t("footer.terms")}
           </Link>
         </nav>
       </div>
 
       {/* Copyright */}
       <div className="text-center text-xs text-gray-200 mt-4">
-        © {new Date().getFullYear()} Random Generator. All rights reserved.
+        © {new Date().getFullYear()} {t("websiteName")}. {t("footer.rights")}
       </div>
     </footer>
   )

@@ -12,17 +12,17 @@
   "generators": {
     "fact": {
       "title": "随机事实生成器",
-      "button": "生成事实",
+      "button": "使用 AI 生成事实",
       "generating": "正在生成精彩事实..."
     },
     "question": {
       "title": "随机问题生成器",
-      "button": "生成问题",
+      "button": "使用 AI 生成问题",
       "generating": "正在生成发人深省的问题..."
     },
     "joke": {
       "title": "随机笑话生成器",
-      "button": "生成笑话",
+      "button": "使用 AI 生成笑话",
       "generating": "正在生成搞笑笑话..."
     }
   },
@@ -114,5 +114,101 @@
     "deleteConfirm": "您确定要删除此项目吗？",
     "editTitle": "编辑项目",
     "addTitle": "添加新项目"
+  },
+  "footer": {
+  "home": "首页",
+  "about": "关于我们",
+  "contact": "联系我们",
+  "privacy": "隐私政策",
+  "terms": "条款和条件",
+  "rights": "版权所有。"
+},
+"about": {
+  "title": "关于我们",
+  "p1": "欢迎来到 Random Generator！🎉 我们的使命是让学习和娱乐变得有趣。我们创建了一个简单的平台，让您可以发现随机的事实、提出问题并开怀大笑。",
+  "p2": "无论您是学生、家长还是只是充满好奇心的人，我们的平台都提供干净、安全且适合所有年龄段的教育内容。我们相信知识和幽默应该被自由、即时地分享。",
+  "p3": "我们的团队热衷于教育和创造力。我们致力于提供能够激发好奇心、鼓励学习并带来笑容的内容。",
+  "p4": "感谢您访问 Random Generator。请继续探索、继续学习并继续欢笑！💡😂",
+  "homeBtn": "首页",
+  "contactBtn": "联系我们"
+},
+"contact": {
+  "title": "联系我们",
+  "description": "有问题、反馈或建议？请填写下面的表格，我们会尽快回复您。💌",
+  "nameLabel": "您的姓名",
+  "namePlaceholder": "请输入您的姓名",
+  "emailLabel": "电子邮箱",
+  "emailPlaceholder": "请输入您的电子邮箱",
+  "messageLabel": "留言",
+  "messagePlaceholder": "写下您的留言...",
+  "sendButton": "发送信息"
+},
+"privacy": {
+  "title": "隐私政策",
+  "description": "阅读 Random Generator 的隐私政策，了解我们如何处理数据、AI 生成的内容以及您的隐私。",
+  "intro": "欢迎来到 Random Generator。我们重视您的隐私，并希望对我们的服务保持透明。",
+  "sections": {
+    "aiService": {
+      "title": "1. 免费 AI 驱动服务",
+      "content": "我们的网站提供使用人工智能生成的事实、笑话和问题。该服务完全免费使用，无需创建账户。"
+    },
+    "dataCollection": {
+      "title": "2. 数据收集",
+      "content": "我们不会收集个人数据，如姓名、邮箱或密码。不过，为了改进服务，可能会收集基础分析数据（如访问者数量）。"
+    },
+    "aiContent": {
+      "title": "3. AI 生成内容",
+      "content": "所有笑话、事实和问题均由 AI 创建。由于内容是机器生成的，我们无法保证 100% 的准确性。请仅将内容用于娱乐目的。"
+    },
+    "license": {
+      "title": "4. MIT 许可",
+      "content": "本项目在 MIT 许可下发布。您可以自由使用、修改和分享代码与内容，但需提供适当的署名。"
+    },
+    "thirdParty": {
+      "title": "5. 第三方服务",
+      "content": "我们可能使用第三方工具（如 Google Analytics 或 AdSense）来支持服务。这些服务可能使用 cookies 来提供更好的功能和广告。"
+    },
+    "updates": {
+      "title": "6. 更新",
+      "content": "我们可能会不定期更新本隐私政策。任何更新都会发布在此页面并标注新修订日期。"
+    }
+  },
+  "contact": "如果您有任何问题，请访问我们的联系页面。"
+},
+
+
+  "terms": {
+    "title": "条款与条件",
+    "intro": "欢迎来到随机生成器。访问或使用我们的服务即表示您同意以下条款与条件。",
+    "sections": {
+      "freeService": {
+        "title": "1. 免费服务",
+        "content": "我们的平台完全免费使用。您可以生成笑话、事实和问题，无需创建账户。"
+      },
+      "aiContent": {
+        "title": "2. AI生成内容",
+        "content": "所有内容（事实、笑话、问题）均由人工智能生成。我们无法保证内容始终准确、合适或无错误，仅供娱乐用途。"
+      },
+      "liability": {
+        "title": "3. 责任限制",
+        "content": "我们不对使用本服务或AI生成内容所造成的任何误用、误解或损害负责。"
+      },
+      "license": {
+        "title": "4. MIT许可证",
+        "content": "本项目在MIT许可证下发布。您可以自由使用、复制、修改、合并、发布、分发、再许可和/或销售软件副本，前提是所有副本中包含版权声明和许可。"
+      },
+      "licenseSimplified": {
+        "title": "MIT许可证（简化版）",
+        "content": "特此免费授权任何获得本软件及相关文档文件的人，在不受限制的情况下处理本软件。"
+      },
+      "updates": {
+        "title": "5. 更新",
+        "content": "我们可能会随时更新这些条款与条件。任何更新将在此页面发布，并附上新的修订日期。"
+      }
+    },
+    "contact": "如有疑问，请访问我们的"
   }
+
+
+
 }

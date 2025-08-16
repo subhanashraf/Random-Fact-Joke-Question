@@ -1,0 +1,208 @@
+{
+  "websiteName": "Gerador Aleatório",
+  "websiteTitle": "Gerador Aleatório - Fatos, Perguntas e Piadas",
+  "websiteDescription": "Descubra fatos incríveis, perguntas instigantes e piadas hilárias! Conteúdo educativo e divertido para todas as idades.",
+  "heroTitle": "Descubra Conteúdos Incríveis",
+  "heroDescription": "Gere fatos, perguntas e piadas instantaneamente!",
+  "navigation": {
+    "facts": "📚 Fatos",
+    "questions": "❓ Perguntas",
+    "jokes": "😂 Piadas"
+  },
+  "generators": {
+    "fact": {
+      "title": "Gerador de Fatos Aleatórios",
+      "button": "Gerar Fato com IA",
+      "generating": "Gerando fato incrível..."
+    },
+    "question": {
+      "title": "Gerador de Perguntas Aleatórias",
+      "button": "Gerar Pergunta com IA",
+      "generating": "Gerando pergunta instigante..."
+    },
+    "joke": {
+      "title": "Gerador de Piadas Aleatórias",
+      "button": "Gerar Piada com IA",
+      "generating": "Gerando piada hilária..."
+    }
+  },
+  "categories": {
+    "random": "🎲 Aleatório",
+    "fun": "🎉 Diversão",
+    "science": "🔬 Ciência",
+    "history": "📜 História",
+    "technology": "💻 Tecnologia",
+    "space": "🚀 Espaço",
+    "health": "💊 Saúde",
+    "nature": "🌿 Natureza",
+    "sports": "⚽ Esportes",
+    "culture": "🎭 Cultura",
+    "entertainment": "🎬 Entretenimento",
+    "education": "🎓 Educação",
+    "lifestyle": "🏠 Estilo de Vida",
+    "food": "🍕 Comida",
+    "music": "🎵 Música",
+    "art": "🎨 Arte",
+    "travel": "✈️ Viagem",
+    "philosophy": "🤔 Filosofia",
+    "psychology": "🧠 Psicologia",
+    "literature": "📚 Literatura",
+    "movies": "🎥 Filmes",
+    "games": "🎮 Jogos",
+    "relationships": "💕 Relacionamentos",
+    "career": "💼 Carreira",
+    "creativity": "✨ Criatividade",
+    "ethics": "⚖️ Ética",
+    "future": "🔮 Futuro",
+    "childhood": "👶 Infância",
+    "dreams": "💭 Sonhos",
+    "hobbies": "🎯 Hobbies",
+    "adventure": "🗺️ Aventura",
+    "mystery": "🕵️ Mistério",
+    "funny": "😄 Engraçado",
+    "dadjokes": "👨 Piadas de Pai",
+    "kids": "🧒 Crianças",
+    "wordplay": "📝 Troca de Palavras",
+    "animals": "🐾 Animais",
+    "darkhumor": "🖤 Humor Negro",
+    "puns": "😏 Trocadilhos",
+    "personal": "👤 Pessoal",
+    "creative": "🎪 Criativo"
+  },
+  "ui": {
+    "recentItems": "Itens Recentes",
+    "loadMore": "Carregar Mais",
+    "funFactOfDay": "Fato Curioso do Dia",
+    "mostPopularJoke": "Piada Mais Popular",
+    "statistics": "Estatísticas",
+    "factsGenerated": "Fatos Gerados",
+    "activeUsers": "Usuários Ativos",
+    "userRating": "Avaliação dos Usuários",
+    "whyChooseUs": "Por Que Escolher-nos?",
+    "features": {
+      "educational": {
+        "title": "Conteúdo Educativo",
+        "description": "Aprenda algo novo todos os dias com nossos fatos e perguntas selecionados."
+      },
+      "familyFriendly": {
+        "title": "Apropriado para a Família",
+        "description": "Conteúdo seguro e apropriado para todas as idades e membros da família."
+      },
+      "qualityContent": {
+        "title": "Conteúdo de Qualidade",
+        "description": "Conteúdo selecionado e gerado por IA que é divertido e informativo."
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Painel do Administrador",
+    "login": "Entrar",
+    "logout": "Sair",
+    "username": "Nome de Usuário",
+    "password": "Senha",
+    "addNew": "Adicionar Novo",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "type": "Tipo",
+    "category": "Categoria",
+    "content": "Conteúdo",
+    "language": "Idioma",
+    "actions": "Ações",
+    "deleteConfirm": "Tem certeza que deseja excluir este item?",
+    "editTitle": "Editar Item",
+    "addTitle": "Adicionar Novo Item"
+  },
+  "footer": {
+    "home": "Início",
+    "about": "Sobre",
+    "contact": "Contato",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos e Condições",
+    "rights": "Todos os direitos reservados."
+  },
+  "about": {
+    "title": "Sobre Nós",
+    "p1": "Bem-vindo ao Gerador Aleatório! 🎉 Nossa missão é tornar a aprendizagem e o entretenimento divertidos para todos. Criamos uma plataforma simples onde você pode descobrir fatos aleatórios, fazer perguntas e rir com piadas.",
+    "p2": "Seja você estudante, pai/mãe ou apenas curioso, nossa plataforma oferece conteúdo limpo, seguro e educativo para todas as idades. Acreditamos que conhecimento e humor devem ser compartilhados livremente e instantaneamente.",
+    "p3": "Nossa equipe é apaixonada por educação e criatividade. Trabalhamos para fornecer conteúdo que desperte curiosidade, incentive o aprendizado e traga sorrisos.",
+    "p4": "Obrigado por visitar o Gerador Aleatório. Continue explorando, continue aprendendo e continue rindo! 💡😂",
+    "homeBtn": "Início",
+    "contactBtn": "Contato"
+  },
+  "contact": {
+    "title": "Contato",
+    "description": "Tem dúvidas, feedback ou sugestões? Preencha o formulário abaixo e responderemos o mais rápido possível. 💌",
+    "nameLabel": "Seu Nome",
+    "namePlaceholder": "Digite seu nome",
+    "emailLabel": "Endereço de E-mail",
+    "emailPlaceholder": "Digite seu e-mail",
+    "messageLabel": "Mensagem",
+    "messagePlaceholder": "Escreva sua mensagem...",
+    "sendButton": "Enviar Mensagem"
+  },
+  "privacy": {
+    "title": "Política de Privacidade",
+    "intro": "Bem-vindo ao Gerador Aleatório. Valorizamos sua privacidade e queremos ser transparentes sobre como nosso serviço funciona.",
+    "sections": {
+      "aiService": {
+        "title": "1. Serviço Gratuito com IA",
+        "content": "Nosso site fornece fatos, piadas e perguntas geradas por Inteligência Artificial. O serviço é totalmente gratuito e você não precisa criar uma conta."
+      },
+      "dataCollection": {
+        "title": "2. Coleta de Dados",
+        "content": "Não coletamos dados pessoais, como nomes, e-mails ou senhas. No entanto, análises básicas (como número de visitantes) podem ser coletadas para melhorar o serviço."
+      },
+      "aiContent": {
+        "title": "3. Conteúdo Gerado por IA",
+        "content": "Todas as piadas, fatos e perguntas são criadas por IA. Como o conteúdo é gerado automaticamente, não podemos garantir 100% de precisão. Use apenas para diversão e entretenimento."
+      },
+      "license": {
+        "title": "4. Licença MIT",
+        "content": "Este projeto é lançado sob a Licença MIT. Você pode usar, modificar e compartilhar o código e conteúdo com a devida atribuição."
+      },
+      "thirdParty": {
+        "title": "5. Serviços de Terceiros",
+        "content": "Podemos usar ferramentas de terceiros (como Google Analytics ou AdSense) para apoiar o serviço. Esses serviços podem usar cookies para fornecer melhor funcionalidade e anúncios."
+      },
+      "updates": {
+        "title": "6. Atualizações",
+        "content": "Podemos atualizar esta Política de Privacidade de tempos em tempos. Todas as atualizações serão publicadas nesta página com a nova data de revisão."
+      }
+    },
+    "contact": "Se tiver dúvidas, visite nosso site"
+  },
+  "terms": {
+    "title": "Termos e Condições",
+    "intro": "Bem-vindo ao Gerador Aleatório. Ao acessar ou usar nosso serviço, você concorda com os seguintes Termos e Condições.",
+    "sections": {
+      "freeService": {
+        "title": "1. Serviço Gratuito",
+        "content": "Nossa plataforma é totalmente gratuita. Você pode gerar piadas, fatos e perguntas sem criar uma conta."
+      },
+      "aiContent": {
+        "title": "2. Conteúdo Gerado por IA",
+        "content": "Todo o conteúdo (fatos, piadas, perguntas) é gerado por Inteligência Artificial. Não garantimos que o conteúdo seja sempre preciso ou apropriado. Use apenas para diversão."
+      },
+      "liability": {
+        "title": "3. Limitação de Responsabilidade",
+        "content": "Não nos responsabilizamos por qualquer uso indevido, mal-entendidos ou danos causados pelo uso do serviço ou conteúdo gerado por IA."
+      },
+      "license": {
+        "title": "4. Licença MIT",
+        "content": "Este projeto é lançado sob a Licença MIT. Você pode usar, copiar, modificar, publicar, distribuir, sublicenciar e/ou vender cópias do software, desde que a notificação de copyright e permissão estejam incluídas em todas as cópias."
+      },
+      "licenseSimplified": {
+        "title": "Licença MIT (Simplificada)",
+        "content": "Permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e arquivos de documentação associados, para lidar com o software sem restrições."
+      },
+      "updates": {
+        "title": "5. Atualizações",
+        "content": "Podemos atualizar estes Termos e Condições a qualquer momento. Todas as atualizações serão publicadas aqui com nova data de revisão."
+      }
+    },
+    "contact": "Para dúvidas, visite nosso site"
+  }
+}

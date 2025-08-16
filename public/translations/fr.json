@@ -1,0 +1,208 @@
+{
+  "websiteName": "Générateur Aléatoire",
+  "websiteTitle": "Générateur Aléatoire - Faits, Questions & Blagues",
+  "websiteDescription": "Découvrez des faits incroyables, des questions stimulantes et des blagues hilarantes ! Contenu éducatif et divertissant pour tous les âges.",
+  "heroTitle": "Découvrez un contenu incroyable",
+  "heroDescription": "Générez instantanément des faits, questions et blagues aléatoires !",
+  "navigation": {
+    "facts": "📚 Faits",
+    "questions": "❓ Questions",
+    "jokes": "😂 Blagues"
+  },
+  "generators": {
+    "fact": {
+      "title": "Générateur de Faits Aléatoires",
+      "button": "Générer un fait avec IA",
+      "generating": "Génération d'un fait incroyable..."
+    },
+    "question": {
+      "title": "Générateur de Questions Aléatoires",
+      "button": "Générer une question avec IA",
+      "generating": "Génération d'une question stimulante..."
+    },
+    "joke": {
+      "title": "Générateur de Blagues Aléatoires",
+      "button": "Générer une blague avec IA",
+      "generating": "Génération d'une blague hilarante..."
+    }
+  },
+  "categories": {
+    "random": "🎲 Aléatoire",
+    "fun": "🎉 Divertissement",
+    "science": "🔬 Science",
+    "history": "📜 Histoire",
+    "technology": "💻 Technologie",
+    "space": "🚀 Espace",
+    "health": "💊 Santé",
+    "nature": "🌿 Nature",
+    "sports": "⚽ Sports",
+    "culture": "🎭 Culture",
+    "entertainment": "🎬 Divertissement",
+    "education": "🎓 Éducation",
+    "lifestyle": "🏠 Mode de vie",
+    "food": "🍕 Nourriture",
+    "music": "🎵 Musique",
+    "art": "🎨 Art",
+    "travel": "✈️ Voyage",
+    "philosophy": "🤔 Philosophie",
+    "psychology": "🧠 Psychologie",
+    "literature": "📚 Littérature",
+    "movies": "🎥 Films",
+    "games": "🎮 Jeux",
+    "relationships": "💕 Relations",
+    "career": "💼 Carrière",
+    "creativity": "✨ Créativité",
+    "ethics": "⚖️ Éthique",
+    "future": "🔮 Futur",
+    "childhood": "👶 Enfance",
+    "dreams": "💭 Rêves",
+    "hobbies": "🎯 Loisirs",
+    "adventure": "🗺️ Aventure",
+    "mystery": "🕵️ Mystère",
+    "funny": "😄 Drôle",
+    "dadjokes": "👨 Blagues de papa",
+    "kids": "🧒 Enfants",
+    "wordplay": "📝 Jeux de mots",
+    "animals": "🐾 Animaux",
+    "darkhumor": "🖤 Humour noir",
+    "puns": "😏 Calembours",
+    "personal": "👤 Personnel",
+    "creative": "🎪 Créatif"
+  },
+  "ui": {
+    "recentItems": "Éléments récents",
+    "loadMore": "Charger plus",
+    "funFactOfDay": "Fait amusant du jour",
+    "mostPopularJoke": "Blague la plus populaire",
+    "statistics": "Statistiques",
+    "factsGenerated": "Faits générés",
+    "activeUsers": "Utilisateurs actifs",
+    "userRating": "Évaluation des utilisateurs",
+    "whyChooseUs": "Pourquoi nous choisir ?",
+    "features": {
+      "educational": {
+        "title": "Contenu éducatif",
+        "description": "Apprenez quelque chose de nouveau chaque jour avec nos faits et questions sélectionnés."
+      },
+      "familyFriendly": {
+        "title": "Adapté à la famille",
+        "description": "Contenu sûr et approprié pour tous les âges et les membres de la famille."
+      },
+      "qualityContent": {
+        "title": "Contenu de qualité",
+        "description": "Contenu sélectionné et généré par IA, à la fois amusant et informatif."
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de bord Admin",
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "addNew": "Ajouter",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "type": "Type",
+    "category": "Catégorie",
+    "content": "Contenu",
+    "language": "Langue",
+    "actions": "Actions",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cet élément ?",
+    "editTitle": "Modifier l'élément",
+    "addTitle": "Ajouter un nouvel élément"
+  },
+  "footer": {
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales",
+    "rights": "Tous droits réservés."
+  },
+  "about": {
+    "title": "À propos de nous",
+    "p1": "Bienvenue sur Générateur Aléatoire ! 🎉 Notre mission est de rendre l'apprentissage et le divertissement amusants pour tous. Nous créons une plateforme simple où vous pouvez découvrir des faits aléatoires, poser des questions et rire avec des blagues.",
+    "p2": "Que vous soyez étudiant, parent ou simplement curieux, notre plateforme offre un contenu propre, sûr et éducatif adapté à tous les âges. Nous croyons que le savoir et l'humour doivent être partagés librement et instantanément.",
+    "p3": "Notre équipe est passionnée par l'éducation et la créativité. Nous travaillons à fournir du contenu qui suscite la curiosité, encourage l'apprentissage et apporte des sourires.",
+    "p4": "Merci de visiter Générateur Aléatoire. Continuez à explorer, apprendre et rire ! 💡😂",
+    "homeBtn": "Accueil",
+    "contactBtn": "Contactez-nous"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Vous avez des questions, des commentaires ou des suggestions ? Remplissez le formulaire ci-dessous et nous vous répondrons dès que possible. 💌",
+    "nameLabel": "Votre nom",
+    "namePlaceholder": "Entrez votre nom",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "Entrez votre e-mail",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Écrivez votre message...",
+    "sendButton": "Envoyer le message"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "intro": "Bienvenue sur Générateur Aléatoire. Nous respectons votre vie privée et souhaitons être transparents sur le fonctionnement de notre service.",
+    "sections": {
+      "aiService": {
+        "title": "1. Service gratuit alimenté par l'IA",
+        "content": "Notre site fournit des faits, des blagues et des questions générés par l'intelligence artificielle. Le service est entièrement gratuit et vous n'avez pas besoin de créer un compte."
+      },
+      "dataCollection": {
+        "title": "2. Collecte de données",
+        "content": "Nous ne collectons pas de données personnelles telles que les noms, e-mails ou mots de passe. Cependant, des analyses de base (comme le nombre de visiteurs) peuvent être collectées pour améliorer le service."
+      },
+      "aiContent": {
+        "title": "3. Contenu généré par IA",
+        "content": "Toutes les blagues, faits et questions sont créés par IA. Comme le contenu est généré automatiquement, nous ne pouvons pas garantir une précision de 100 %. Veuillez utiliser le contenu uniquement à des fins de divertissement."
+      },
+      "license": {
+        "title": "4. Licence MIT",
+        "content": "Ce projet est publié sous licence MIT. Vous êtes libre d'utiliser, modifier et partager le code et le contenu avec attribution appropriée."
+      },
+      "thirdParty": {
+        "title": "5. Services tiers",
+        "content": "Nous pouvons utiliser des outils tiers (comme Google Analytics ou AdSense) pour soutenir le service. Ces services peuvent utiliser des cookies pour fournir une meilleure fonctionnalité et des publicités."
+      },
+      "updates": {
+        "title": "6. Mises à jour",
+        "content": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Toute mise à jour sera publiée sur cette page avec une nouvelle date de révision."
+      }
+    },
+    "contact": "Si vous avez des questions, veuillez visiter notre site"
+  },
+  "terms": {
+    "title": "Conditions générales",
+    "intro": "Bienvenue sur Générateur Aléatoire. En accédant à notre service ou en l'utilisant, vous acceptez les conditions suivantes.",
+    "sections": {
+      "freeService": {
+        "title": "1. Service gratuit",
+        "content": "Notre plateforme est entièrement gratuite. Vous pouvez générer des blagues, des faits et des questions sans créer de compte."
+      },
+      "aiContent": {
+        "title": "2. Contenu généré par IA",
+        "content": "Tout le contenu (faits, blagues, questions) est généré par l'intelligence artificielle. Nous ne pouvons garantir que le contenu est toujours exact ou approprié. Utilisez-le uniquement pour le divertissement."
+      },
+      "liability": {
+        "title": "3. Limitation de responsabilité",
+        "content": "Nous ne sommes pas responsables de toute mauvaise utilisation, mauvaise interprétation ou dommages causés par l'utilisation de notre service ou du contenu généré par IA."
+      },
+      "license": {
+        "title": "4. Licence MIT",
+        "content": "Ce projet est publié sous licence MIT. Vous êtes libre d'utiliser, copier, modifier, fusionner, publier, distribuer, sous-licencier et/ou vendre des copies du logiciel, à condition que l'avis de copyright et la permission soient inclus dans toutes les copies."
+      },
+      "licenseSimplified": {
+        "title": "Licence MIT (simplifiée)",
+        "content": "Permission est accordée gratuitement à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés pour utiliser le logiciel sans restriction."
+      },
+      "updates": {
+        "title": "5. Mises à jour",
+        "content": "Nous pouvons mettre à jour ces conditions à tout moment. Toute mise à jour sera publiée ici avec une nouvelle date de révision."
+      }
+    },
+    "contact": "Pour toute question, veuillez visiter notre site"
+  }
+}

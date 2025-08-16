@@ -67,7 +67,7 @@ export function JokeGenerator() {
       <CardHeader>
         <CardTitle className="flex items-center gap-2 text-2xl">
           <Smile className="h-6 w-6 text-green-500" />
-          {t("jokeGenerator")}
+          {t("generators.joke.title")}
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-6">
@@ -89,10 +89,10 @@ export function JokeGenerator() {
             {loading ? (
               <>
                 <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                {t("generating")}
+                {t("generators.joke.button")}
               </>
             ) : (
-              t("generateJoke")
+              t("generators.joke.generating")
             )}
           </Button>
         </div>
