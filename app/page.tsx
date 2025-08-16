@@ -54,9 +54,9 @@ function HomeContent() {
 
   return (
     <div className="min-h-screen">
-      <Suspense fallback={<div className="h-20 bg-background/80 backdrop-blur-md"></div>}>
+      {/* <Suspense fallback={<div className="h-20 bg-background/80 backdrop-blur-md"></div>}>
         <Header />
-      </Suspense>
+      </Suspense> */}
 
       <main className="container mx-auto px-4 py-8 space-y-12">
         {/* Hero Section - Simplified and more welcoming */}
